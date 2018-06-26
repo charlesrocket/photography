@@ -1,0 +1,34 @@
+# Color settings (Hex value without #)
+color_alpha: e0e0e0
+color_beta: cc2828
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Instagram API
+instagram_key:
+instagram_caption: true
+
+# SEO settings
+title: CHARLIE ROCKET photography
+description:
+url: ""
+email:
+twitter_username: charlesrocket
+default_img:
+
+# Profile settings
+social:
+  twitter: https://twitter.com/charlesrocket
+
+# Build settings
+exclude: ["node_modules", "gulpfile.js", "assets/js/app.js", "README.md", "Gemfile", "Gemfile.lock"]
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-sitemap, octopress-autoprefixer]
