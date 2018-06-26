@@ -26,7 +26,7 @@ social:
 # Build settings
 exclude: ["node_modules", "gulpfile.js", "assets/js/app.js", "README.md", "Gemfile", "Gemfile.lock"]
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
+permalink: none
 
 # Sass
 sass:
