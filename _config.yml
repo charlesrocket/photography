@@ -12,7 +12,7 @@ instagram_caption: true
 # SEO settings
 title: CHARLIE ROCKET photography
 description:
-url: "https://charlesrocket.github.io/photography/"
+url: ""
 email:
 twitter_username: charlesrocket
 default_img:
@@ -30,8 +30,5 @@ permalink: /:year/:month/:day/:title/
 sass:
   style: compressed
 
-plugins:
-  - jekyll-gist
-  - jekyll-sitemap
-  - jekyll-github-metadata
-  - jekyll-mentions
+# Gems
+gems: [jekyll-sitemap, octopress-autoprefixer]

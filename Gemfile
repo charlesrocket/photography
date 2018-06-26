@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
+group :jekyll_plugins do
   gem "jekyll-sitemap"
-  gem "jekyll-autoprefixer"
-  gem "jekyll-gist"
-  gem "jekyll-mentions"
-  gem "jekyll-github-metadata"
+  gem "octopress-autoprefixer"
+end
