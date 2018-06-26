@@ -1,3 +1,5 @@
+baseurl: "/"
+
 # Color settings (Hex value without #)
 color_alpha: e0e0e0
 color_beta: cc2828
