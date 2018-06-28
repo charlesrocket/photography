@@ -18,6 +18,7 @@ exclude:
 - assets/js/app.js
 - Gemfile
 - Gemfile.lock
+- _javascript/vendor
 markdown: kramdown
 permalink: none
 sass:
