@@ -1,5 +1,3 @@
-baseurl: "/photography"
-
 # Color settings (Hex value without #)
 color_alpha: e0e0e0
 color_beta: cc2828
@@ -14,7 +12,7 @@ instagram_caption: true
 # SEO settings
 title: CHARLIE ROCKET photography
 description:
-url: "https://charlesrocket.github.io/photography/"
+url: "https://charlesrocket.github.io/photography"
 email:
 twitter_username: charlesrocket
 default_img:
@@ -35,5 +33,18 @@ sass:
 plugins:
   - jekyll-gist
   - jekyll-sitemap
-  - jekyll-github-metadata
   - jekyll-mentions
+
+exiftag:
+ sources:
+   - assets/images/portfolio
+
+mini_magick:
+    photography:
+        source: assets/images/portfolio
+        destination: assets/images/portfolio/thumbnails
+        resize: "1280x720"
+    headers:
+        source: assets/images/headers
+        destination: assets/images/headers/thumbnails
+        resize: "400x250"
