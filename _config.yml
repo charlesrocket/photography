@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  portfolio:
+    title: portfolio
+    output: true
 baseurl: "/photography"
 color_alpha: e0e0e0
 color_beta: cc2828
