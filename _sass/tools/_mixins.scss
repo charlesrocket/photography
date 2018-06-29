@@ -158,7 +158,7 @@
 /**
  * Animation Delay
  */
-@mixin nth-animation-delay($items: 12, $time: 0.3s) {
+@mixin nth-animation-delay($items: 12, $time: 0.1s) {
   @for $i from 1 through $items {
 
     &:nth-child(#{$i}) {
